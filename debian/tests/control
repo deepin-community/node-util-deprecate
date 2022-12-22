@@ -1,0 +1,3 @@
+Tests: require
+Depends: node-util-deprecate, nodejs
+Restrictions: superficial

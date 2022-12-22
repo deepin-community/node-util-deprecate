@@ -1,0 +1,42 @@
+node-util-deprecate (1.0.2-3) unstable; urgency=medium
+
+  * Team upload
+  * Autopkgtest depends on nodejs
+  * Bug fix: "autopkgtest must be marked superficial", thanks to Sudip
+    Mukherjee (Closes: #974329).
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 29 Sep 2021 20:23:32 +0000
+
+node-util-deprecate (1.0.2-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Update Vcs-* headers to use salsa repository.
+  * Remove obsolete field Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+  * Apply multi-arch hints.
+    + node-util-deprecate: Add Multi-Arch: foreign.
+
+  [ Bastien Roucariès ]
+  * dh-sequence-nodejs
+  * Remove depends on nodejs
+  * Bump standard version and debhelper (no changes)
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 29 Sep 2021 12:52:14 +0000
+
+node-util-deprecate (1.0.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Ross Gammon <rossgammon@mail.dk>  Tue, 20 Oct 2015 19:54:00 +0200
+
+node-util-deprecate (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #796365)
+
+ -- Ross Gammon <rossgammon@mail.dk>  Mon, 28 Sep 2015 22:06:45 +0200

@@ -1,0 +1,25 @@
+Source: node-util-deprecate
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ross Gammon <rossgammon@mail.dk>
+Build-Depends: debhelper-compat (= 13),
+               dh-buildinfo,
+               dh-sequence-nodejs
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: https://github.com/TooTallNate/util-deprecate
+Vcs-Git: https://salsa.debian.org/js-team/node-util-deprecate.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-util-deprecate
+
+Package: node-util-deprecate
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Node.js's `util.deprecate()` function with browser support
+ In Node.js, this module simply re-exports the util.deprecate() function.
+ .
+ In the web browser (i.e. via browserify), a browser-specific
+ implementation of the util.deprecate() function is used.
+ .
+ Node.js is an event-based server-side JavaScript engine.
